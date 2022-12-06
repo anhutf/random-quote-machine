@@ -1,0 +1,82 @@
+/* 
+
+- Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f9e44;
+}
+
+#quote-box {
+  background-color: #fff;
+  max-width: 600px;
+  padding: 48px 64px;
+  margin: 16px;
+  border-radius: 7px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#text {
+  color: #2b8a3e;
+  font-size: 32px;
+  text-align: center;
+}
+
+#author {
+  color: #2f9e44;
+  text-align: right;
+}
+
+.quote-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+#tweet-quote {
+  color: #2f9e44;
+}
+
+#tweet-quote:hover {
+  color: #2b8a3e;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+#new-quote {
+  background-color: #2f9e44;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+#new-quote:hover {
+  background-color: #2b8a3e;
+}
